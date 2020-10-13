@@ -60,21 +60,29 @@
 [This section describes any key technical feasibility, subsystem or component availability, or other project related assumptions on which the viability of the software described by this Software Requirements Specification may be based.]
 
 ## 3. Specific Requirements
-[This section of the Software Requirements Specification should contain all the software requirements to a level of detail sufficient to enable designers to design a system to satisfy those requirements and testers to test that the system satisfies those requirements.   When using use-case modeling, these requirements are captured in the use cases and the applicable supplementary specifications.  If use-case modeling is not used, the outline for supplementary specifications may be inserted directly into this section.]
+[This section of the Software Requirements Specification should contain all the software requirements to a level of detail sufficient to enable designers to design a system to satisfy those requirements and testers to test that the system satisfies those requirements.   When using use-case modeling, these requirements are captured in the use cases and the applicable supplementary specifications.  If use-case modeling is not used, the outline for supplementary specifications may be inserted directly into this section.
 
 ### 3.1 Use-Case Reports
-[In use-case modeling, the use cases often define the majority of the functional requirements of the system, along with some non-functional requirements.  For each use case in the above use-case model, or subset thereof, refer to, or enclose, the use-case report in this section.  Make sure that each requirement is clearly labeled.]
+This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality.
+
+Until the end of December we plan to implement:
+- Generating a QR-Code for each gym
+- Scanning the gym QR-Code to request an account
+- Confirming account requests
+- Entering fitness plans for specific users
+- Displaying fitness plans for the user
+
+Until June, we want to implement:
+- Progress tracking
+- Hall of fame
+- Multi gym support
 
 ### 3.2 Supplementary Requirements
 [Supplementary Specifications capture requirements that are not included in the use cases.  The specific requirements from the Supplementary Specifications, which are applicable to this subsystem or feature, should be included here and refined to the necessary level of detail to describe this subsystem or feature.  These may be captured directly in this document or referred to as separate Supplementary Specifications, which may be used as an enclosure at this point. Make sure that each requirement is clearly labeled.]
 
 ## 4. Supporting Information
-[The supporting information makes the Software Requirements Specification easier to use.  It includes:
+For any further information you can contact the FitCom Team or check our FitCom Blog. The Team Members are:
 
-- Table of Contents
-
-- Index
-
-- Appendices
-
- These may include use-case storyboards or user-interface prototypes. When appendices are included, the Software Requirements Specification should explicitly state whether or not the appendices are to be considered part of the requirements.]
+- Daniel Gombar
+- Ian Helmrich
+- Cem Yilmaz
