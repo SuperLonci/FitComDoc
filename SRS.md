@@ -66,16 +66,25 @@
 This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality.
 
 Until the end of December we plan to implement:
-- Generating a QR-Code for each gym
-- Scanning the gym QR-Code to request an account
-- Confirming account requests
-- Entering fitness plans for specific users
-- Displaying fitness plans for the user
+- 3.1.1 Generating a QR-Code for each gym
+- 3.1.2 Scanning the gym QR-Code to request an account
+- 3.1.3 Confirming account requests
+- 3.1.4 Entering fitness plans for specific users
+- 3.1.5 Displaying fitness plans for the user
 
 Until June, we want to implement:
-- Progress tracking
-- Hall of fame
-- Multi gym support
+- 3.1.6 Progress tracking
+- 3.1.7 Hall of fame
+- 3.1.8 Multi gym support
+
+#### 3.1.1 Generating a QR-Code for each gym
+#### 3.1.2 Scanning the gym QR-Code to request an account
+#### 3.1.3 Confirming account requests
+#### 3.1.4 Entering fitness plans for specific users
+#### 3.1.5 Displaying fitness plans for the user
+#### 3.1.6 Progress tracking
+#### 3.1.7 Hall of fame
+#### 3.1.8 Multi gym support
 
 ### 3.2 Supplementary Requirements
 [Supplementary Specifications capture requirements that are not included in the use cases.  The specific requirements from the Supplementary Specifications, which are applicable to this subsystem or feature, should be included here and refined to the necessary level of detail to describe this subsystem or feature.  These may be captured directly in this document or referred to as separate Supplementary Specifications, which may be used as an enclosure at this point. Make sure that each requirement is clearly labeled.]
