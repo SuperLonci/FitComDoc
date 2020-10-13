@@ -78,7 +78,11 @@ Until June 2021, we want to implement:
 - 3.1.8 Multi gym support
 
 #### 3.1.1 Generating a QR-Code for each gym
+Beceause for the user the entry point into using our servce is the scan of a QR-Code that is hanging out in his gym, we need to be able to provide QR-Codes for those gyms. These QR-Codes
+
 #### 3.1.2 Scanning the gym QR-Code to request an account
+
+
 #### 3.1.3 Confirming account requests
 #### 3.1.4 Entering fitness plans for specific users
 #### 3.1.5 Displaying fitness plans for the user
