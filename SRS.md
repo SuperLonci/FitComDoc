@@ -35,11 +35,43 @@
 
 [Many different arrangements of a Software Requirements Specification are possible.  Refer to [IEEE830-1998] for further elaboration of these explanations, as well as other options for a Software Requirements Specification organization.]
 
+
 ### 1.1 Purpose
 [Specify the purpose of this Software Requirements Specification. The Software Requirements Specification should fully describe the external behavior of the application or subsystem identified. It also describes nonfunctional requirements, design constraints and other factors necessary to provide a complete and comprehensive description of the requirements for the software.]
 
+This Software Requirements Specification (SRS) describes all specifications for the application "FitCom". It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
+
 ### 1.2 Scope
 [A brief description of the software application that the Software Requirements Specification applies to; the feature or other subsystem grouping; what Use-case model(s) it is associated with; and anything else that is affected or influenced by this document.]
+
+The project is going to be realized as an Android and IOS App and will support a WebInterface for Administration and a Dashboard for showing Leaderboards.
+
+Actors of this App can be members, trainers or moderators.
+
+Planned Subsystems are:
+
+- News Board:
+The news board is the essential part of the apps user interface. Trainers can post challenges there and shared sets by other members can be viewed on this page. Furthermore it is possible to interact with those shared sets and post reactions. 
+
+- Account System:
+Upon first start up of the app the user needs to scan the QR Code of the Gym to create a User Account. The users training plans are stored on the server and the trainer can change improve the users plans via this account. User data must be stored alongside the training data.
+
+- User Highscores:
+Users can score Highscores by e.g lifting the most weight. These can be accessed through a leaderboard.
+
+- Connecting People:
+An important aspect is connection the members. This will be reached by making it possible to interact with highscores or shared trainings.
+Furthermore this should be reached by making it possible to acceppt challenges by the trainer which will be send by push notifications. The results will be displayed in a leaderboard.
+
+- Storing Data:
+User data for accounts needs to be stored. Also the training progress and history will be stored. The data storage will form the foundation for the visualization and the account system.
+
+- Training Plans:
+There are basic training plans provided by standard.
+Furthermore the trainer can make training plans for you which are then showed in your app.
+
+- Tracking trainings:
+User can track their trainings (wheights and repititions) and save them in the app. Their history is also saved so that they can see their progress.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 [This subsection should provide the definitions of all terms, acronyms, and abbreviations required to properly interpret the Software Requirements Specification.  This information may be provided by reference to the project Glossary.]
