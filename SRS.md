@@ -65,14 +65,14 @@
 ### 3.1 Use-Case Reports
 This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality.
 
-Until the end of December we plan to implement:
+Until the end of December of this year we plan to implement:
 - 3.1.1 Generating a QR-Code for each gym
 - 3.1.2 Scanning the gym QR-Code to request an account
 - 3.1.3 Confirming account requests
 - 3.1.4 Entering fitness plans for specific users
 - 3.1.5 Displaying fitness plans for the user
 
-Until June, we want to implement:
+Until June 2021, we want to implement:
 - 3.1.6 Progress tracking
 - 3.1.7 Hall of fame
 - 3.1.8 Multi gym support
