@@ -1,3 +1,84 @@
+Product title:
+## FitCom
+
+Developer team:
+### Daniel Gombar, Ian Helmrich, Cem Yilmaz
+
+Last update:
+### 19th October 2020
+
+
+# 1 Introduction
+## 1.1 Purpose of this document
+This document is the System and Software Requirements Specification (SRS) for the development of the "FitCom" service. It is supposed represent the requirements for the product "FitCom" agreed between the customer and the development team.
+
+
+## 1.2 Scope of the product
+The Fitcom service is intended to enable members of authorized fitness centers to create, display and share training plans. In addition, they should be able to document their own training progress. Personal trainers of the fitness center should also be able to distribute training plans to their members.
+
+
+## 1.3 Overview of the document / Table of contents
+- [1 Introduction](#1-Introduction)
+    - [1.1 Purpose of this document](#1.1-Purpose-of-this-document)
+    - [1.2 Scope of the productt](#1.2-Scope-of-the-product)
+    - [1.3 Overview of the document / Table of contents](#1.3-Overview-of-the-document-/-Table-of-contents)
+
+- [2 Overall Description](#2-Overall-Description)
+    - [2.1 Product information](#2.1-Product-information)
+    - [2.2 User properties](#2.2-User-properties)
+    - [2.3 Assumptions and dependencies](#2.3-Assumptions-and-dependencies)
+    - [2.4 Distribution of requirements](#2.4-Distribution-of-requirements)
+
+- [3 Specific Requirements](#3-Specific-Requirements)
+    -[](#)
+    -[](#)
+    -[](#)
+    -[](#)
+
+
+# 2 Overall Description
+## 2.1 Product information
+For the "FitCom" service administrators of a fitness center, it should be possible to grant and withdraw their employees the rights to create and distribute training plans to members of the fitness center. For those a mobile app should be available in which training plans created by the persolnal trainer can be displayed, but can also be created and edited themselves. Within this app, the members of the fitness center should also be able to document their training progress.
+
+
+## 2.2 User properties
+The members of the fitness center are intended as the main user group, but its management and its trainers will also have to use the system.
+
+
+## 2.3 Assumptions and dependencies
+The mobile app should be available for Android and iOS devices. A web interface should be available for the interaction between the employees of the fitness center and the service. 
+
+
+## 2.4 Distribution of requirements
+For future versions of the service, a challenge system is to be established in which the members of the fitness center can voluntarily share their successes.
+
+
+# 3 Specific Requirements
+funktionale Anforderungen (stark abhängig von der Art des Softwareprodukts)
+nicht-funktionale Anforderungen
+externe Schnittstellen
+Design Constraints
+Anforderungen an Performance
+Qualitätsanforderungen
+Sonstige Anforderungen
+
+
+
+
+
+
+
+
+
+
+FitCom is supposed to be a service that can be delivered to several different fitness centers.
+The mobile App for the end-user must provide the members of a fitness center the ability to obtain training plans from their personal trainer and to be able to create and share training plans themselves.
+For the administration on the fitness center level a web application must be provided from which trainers can be added and removed.
+
+
+
+
+
 # Common Playground - Software Requirements Specification 
 
 ## Table of contents
@@ -39,7 +120,7 @@
 ### 1.1 Purpose
 [Specify the purpose of this Software Requirements Specification. The Software Requirements Specification should fully describe the external behavior of the application or subsystem identified. It also describes nonfunctional requirements, design constraints and other factors necessary to provide a complete and comprehensive description of the requirements for the software.]
 
-This Software Requirements Specification (SRS) describes all specifications for the application "FitCom". It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
+
 
 ### 1.2 Scope
 [A brief description of the software application that the Software Requirements Specification applies to; the feature or other subsystem grouping; what Use-case model(s) it is associated with; and anything else that is affected or influenced by this document.]
