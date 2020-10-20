@@ -54,6 +54,8 @@ For future versions of the service, a challenge system is to be established in w
 
 # 3 Specific Requirements
 ## 3.1 Functional Requirements
+// TODO: 1. und 2. Hälfte in diesem Kapitel verknüpfen oder auuch komplett neu schreiben...
+
 - News Board:
 The news board is the essential part of the apps user interface. Trainers can post challenges there and shared sets by other members can be viewed on this page. Furthermore it is possible to interact with those shared sets and post reactions. 
 
