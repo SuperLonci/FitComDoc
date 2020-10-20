@@ -54,7 +54,45 @@ For future versions of the service, a challenge system is to be established in w
 
 # 3 Specific Requirements
 ## 3.1 Functional Requirements
-...
+- News Board:
+The news board is the essential part of the apps user interface. Trainers can post challenges there and shared sets by other members can be viewed on this page. Furthermore it is possible to interact with those shared sets and post reactions. 
+
+- Account System:
+Upon first start up of the app the user needs to scan the QR Code of the Gym to create a User Account. The users training plans are stored on the server and the trainer can change improve the users plans via this account. User data must be stored alongside the training data.
+
+- User Highscores:
+Users can score Highscores by e.g lifting the most weight. These can be accessed through a leaderboard.
+
+- Connecting People:
+An important aspect is connection the members. This will be reached by making it possible to interact with highscores or shared trainings.
+Furthermore this should be reached by making it possible to acceppt challenges by the trainer which will be send by push notifications. The results will be displayed in a leaderboard.
+
+- Storing Data:
+User data for accounts needs to be stored. Also the training progress and history will be stored. The data storage will form the foundation for the visualization and the account system.
+
+- Training Plans:
+There are basic training plans provided by standard.
+Furthermore the trainer can make training plans for you which are then showed in your app.
+
+- Tracking trainings:
+User can track their trainings (wheights and repititions) and save them in the app. Their history is also saved so that they can see their progress.
+
+### 3.1.1 Generating a QR-Code for each gym
+Beceause for the user the entry point into using our servce is the scan of a QR-Code that is hanging out in his gym, we need to be able to provide QR-Codes for those gyms. These QR-Codes
+
+### 3.1.2 Scanning the gym QR-Code to request an account
+
+
+### 3.1.3 Confirming account requests
+### 3.1.4 Entering fitness plans for specific users
+### 3.1.5 Displaying fitness plans for the user
+### 3.1.6 Progress tracking
+### 3.1.7 Hall of fame
+### 3.1.8 Multi gym support
+
+
+
+
 
 
 ## 3.2 Non-Functional Requirements
