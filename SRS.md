@@ -31,7 +31,8 @@ The Fitcom service is intended to enable members of authorized fitness centers t
 
 - [3 Specific Requirements](#3-Specific-Requirements)
     -[3.1 Functional Requirements](#3.1-Functional-Requirements)
-    -[3.2 Design Constraints](#3.2-Design-Constraints)
+    - [3.2 Non-Functional Requirements](#3.2-Non-Functional-Requirements)
+    -[3.3 Design Constraints](#3.3-Design-Constraints)
 
 
 # 2 Overall Description
@@ -53,10 +54,14 @@ For future versions of the service, a challenge system is to be established in w
 
 # 3 Specific Requirements
 ## 3.1 Functional Requirements
+...
 
 
+## 3.2 Non-Functional Requirements
+IT security: Since part of the stored data is personal, the database should be secured against unauthorized access. 
 
-## 3.2 Design Constraints
+
+## 3.3 Design Constraints
 Both the web interface for the employees of the fitness center and the mobile app should comply with Apple's human interface guidelines.
 
 
