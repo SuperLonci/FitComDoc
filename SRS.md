@@ -54,13 +54,12 @@ For future versions of the service, a challenge system is to be established in w
 
 
 # 3 Specific Requirements
-funktionale Anforderungen (stark abhängig von der Art des Softwareprodukts)
-nicht-funktionale Anforderungen
-externe Schnittstellen
-Design Constraints
-Anforderungen an Performance
-Qualitätsanforderungen
-Sonstige Anforderungen
+## 3.1 Functional requirements
+
+## 3.2 Design Constraints
+
+
+
 
 
 
