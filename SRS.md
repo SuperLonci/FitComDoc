@@ -80,21 +80,21 @@ Furthermore the trainer can make training plans for you which are then showed in
 User can track their trainings (wheights and repititions) and save them in the app. Their history is also saved so that they can see their progress.
 
 ### 3.1.1 Generating a QR-Code for each gym
-Beceause for the user the entry point into using our servce is the scan of a QR-Code that is hanging out in his gym, we need to be able to provide QR-Codes for those gyms. These QR-Codes
+Beceause for the user the entry point into using our service is the scan of a QR-Code that is hanging out in his gym, we need to be able to provide QR-Codes for those gyms.
 
 ### 3.1.2 Scanning the gym QR-Code to request an account
-
+Inside the mobile App we need the ability to detect QR-Codes with the device's camera and use them to send requests to the administrators.
 
 ### 3.1.3 Confirming account requests
+In the web application the administrators have to confirm the incoming requests of the fitness center members.
+
 ### 3.1.4 Entering fitness plans for specific users
+
+
 ### 3.1.5 Displaying fitness plans for the user
 ### 3.1.6 Progress tracking
 ### 3.1.7 Hall of fame
 ### 3.1.8 Multi gym support
-
-
-
-
 
 
 ## 3.2 Non-Functional Requirements
