@@ -31,8 +31,9 @@ The Fitcom service is intended to enable members of authorized fitness centers t
 
 - [3 Specific Requirements](#3-Specific-Requirements)
     -[3.1 Functional Requirements](#3.1-Functional-Requirements)
-    - [3.2 Non-Functional Requirements](#3.2-Non-Functional-Requirements)
-    -[3.3 Design Constraints](#3.3-Design-Constraints)
+    -[3.2 Non-Functional Requirements](#3.2-Non-Functional-Requirements)
+    -[3.3 Architecture Details](#3.3-Architecture-Details)
+    -[3.4 Design Constraints](#3.4-Design-Constraints)
 
 
 # 2 Overall Description
@@ -54,7 +55,7 @@ For future versions of the service, a challenge system is to be established in w
 
 # 3 Specific Requirements
 ## 3.1 Functional Requirements
-// TODO: 1. und 2. Hälfte in diesem Kapitel verknüpfen oder auuch komplett neu schreiben...
+The Subsystems are:
 
 - News Board:
 The news board is the essential part of the apps user interface. Trainers can post challenges there and shared sets by other members can be viewed on this page. Furthermore it is possible to interact with those shared sets and post reactions. 
@@ -92,14 +93,19 @@ In the web application the administrators have to confirm the incoming requests 
 If the fitness center member desires, he can ..
 
 ### 3.1.5 Displaying fitness plans for the user
+TBD
 ### 3.1.6 Progress tracking
+TBD
 ### 3.1.7 Hall of fame
+TBD
 ### 3.1.8 Multi gym support
-
+TBD
 
 ## 3.2 Non-Functional Requirements
 IT security: Since part of the stored data is personal, the database should be secured against unauthorized access. 
 
+## 3.3 Architecture Details
+UML Diagram
 
-## 3.3 Design Constraints
+## 3.4 Design Constraints
 Both the web interface for the employees of the fitness center and the mobile app should comply with Apple's human interface guidelines.
