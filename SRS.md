@@ -9,54 +9,55 @@ Last update:
 
 
 # 1 Introduction
-## 1.1 Purpose of this document
+## 1.1 Purpose of this Document
 This document is the System and Software Requirements Specification (SRS) for the development of the "FitCom" service. It is supposed represent the requirements for the product "FitCom" agreed between the customer and the development team.
 
 
-## 1.2 Scope of the product
+## 1.2 Scope of the Product
 The Fitcom service is intended to enable members of authorized fitness centers to create, display and share training plans. In addition, they should be able to document their own training progress. Personal trainers of the fitness center should also be able to distribute training plans to their members.
 
 
-## 1.3 Overview of the document / Table of contents
+## 1.3 Overview of the Document / Table of Contents
 - [1 Introduction](#1-Introduction)
-    - [1.1 Purpose of this document](#1.1-Purpose-of-this-document)
-    - [1.2 Scope of the productt](#1.2-Scope-of-the-product)
-    - [1.3 Overview of the document / Table of contents](#1.3-Overview-of-the-document-/-Table-of-contents)
+    - [1.1 Purpose of this Document](#1.1-Purpose-of-this-Document)
+    - [1.2 Scope of the Productt](#1.2-Scope-of-the-Product)
+    - [1.3 Overview of the Document / Table of Contents](#1.3-Overview-of-the-Document-/-Table-of-Contents)
 
 - [2 Overall Description](#2-Overall-Description)
-    - [2.1 Product information](#2.1-Product-information)
-    - [2.2 User properties](#2.2-User-properties)
-    - [2.3 Assumptions and dependencies](#2.3-Assumptions-and-dependencies)
-    - [2.4 Distribution of requirements](#2.4-Distribution-of-requirements)
+    - [2.1 Product Information](#2.1-Product-Information)
+    - [2.2 User Properties](#2.2-User-Properties)
+    - [2.3 Assumptions and Dependencies](#2.3-Assumptions-and-Dependencies)
+    - [2.4 Distribution of Requirements](#2.4-Distribution-of-Requirements)
 
 - [3 Specific Requirements](#3-Specific-Requirements)
-    -[](#)
-    -[](#)
-    -[](#)
-    -[](#)
+    -[3.1 Functional Requirements](#3.1-Functional-Requirements)
+    -[3.2 Design Constraints](#3.2-Design-Constraints)
 
 
 # 2 Overall Description
-## 2.1 Product information
+## 2.1 Product Information
 For the "FitCom" service administrators of a fitness center, it should be possible to grant and withdraw their employees the rights to create and distribute training plans to members of the fitness center. For those a mobile app should be available in which training plans created by the persolnal trainer can be displayed, but can also be created and edited themselves. Within this app, the members of the fitness center should also be able to document their training progress.
 
 
-## 2.2 User properties
+## 2.2 User Properties
 The members of the fitness center are intended as the main user group, but its management and its trainers will also have to use the system.
 
 
-## 2.3 Assumptions and dependencies
+## 2.3 Assumptions and Dependencies
 The mobile app should be available for Android and iOS devices. A web interface should be available for the interaction between the employees of the fitness center and the service. 
 
 
-## 2.4 Distribution of requirements
+## 2.4 Distribution of Requirements
 For future versions of the service, a challenge system is to be established in which the members of the fitness center can voluntarily share their successes.
 
 
 # 3 Specific Requirements
-## 3.1 Functional requirements
+## 3.1 Functional Requirements
+
+
 
 ## 3.2 Design Constraints
+Both the web interface for the employees of the fitness center and the mobile app should comply with Apple's human interface guidelines.
 
 
 
@@ -70,12 +71,32 @@ For future versions of the service, a challenge system is to be established in w
 
 
 
-FitCom is supposed to be a service that can be delivered to several different fitness centers.
-The mobile App for the end-user must provide the members of a fitness center the ability to obtain training plans from their personal trainer and to be able to create and share training plans themselves.
-For the administration on the fitness center level a web application must be provided from which trainers can be added and removed.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Alt
 
 
 # Common Playground - Software Requirements Specification 
