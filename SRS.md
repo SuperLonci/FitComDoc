@@ -89,7 +89,7 @@ Inside the mobile App we need the ability to detect QR-Codes with the device's c
 In the web application the administrators have to confirm the incoming requests of the fitness center members.
 
 ### 3.1.4 Entering fitness plans for specific users
-
+If the fitness center member desires, he can ..
 
 ### 3.1.5 Displaying fitness plans for the user
 ### 3.1.6 Progress tracking
