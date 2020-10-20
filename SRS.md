@@ -5,7 +5,7 @@ Developer team:
 ### Daniel Gombar, Ian Helmrich, Cem Yilmaz
 
 Last update:
-### 19th October 2020
+### 18th October 2020
 
 
 # 1 Introduction
@@ -20,7 +20,7 @@ The Fitcom service is intended to enable members of authorized fitness centers t
 ## 1.3 Overview of the Document / Table of Contents
 - [1 Introduction](#1-Introduction)
     - [1.1 Purpose of this Document](#1.1-Purpose-of-this-Document)
-    - [1.2 Scope of the Productt](#1.2-Scope-of-the-Product)
+    - [1.2 Scope of the Product](#1.2-Scope-of-the-Product)
     - [1.3 Overview of the Document / Table of Contents](#1.3-Overview-of-the-Document-/-Table-of-Contents)
 
 - [2 Overall Description](#2-Overall-Description)
@@ -30,10 +30,10 @@ The Fitcom service is intended to enable members of authorized fitness centers t
     - [2.4 Distribution of Requirements](#2.4-Distribution-of-Requirements)
 
 - [3 Specific Requirements](#3-Specific-Requirements)
-    -[3.1 Functional Requirements](#3.1-Functional-Requirements)
-    -[3.2 Non-Functional Requirements](#3.2-Non-Functional-Requirements)
-    -[3.3 Architecture Details](#3.3-Architecture-Details)
-    -[3.4 Design Constraints](#3.4-Design-Constraints)
+    - [3.1 Functional Requirements](#3.1-Functional-Requirements)
+    - [3.2 Non-Functional Requirements](#3.2-Non-Functional-Requirements)
+    - [3.3 Architecture Details](#3.3-Architecture-Details)
+    - [3.4 Design Constraints](#3.4-Design-Constraints)
 
 
 # 2 Overall Description
