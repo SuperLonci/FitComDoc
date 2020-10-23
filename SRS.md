@@ -18,22 +18,22 @@ The Fitcom service is intended to enable members of authorized fitness centers t
 
 
 ## 1.3 Overview of the Document / Table of Contents
-- [1 Introduction](#1-Introduction)
-    - [1.1 Purpose of this Document](#1.1-Purpose-of-this-Document)
-    - [1.2 Scope of the Product](#1.2-Scope-of-the-Product)
-    - [1.3 Overview of the Document / Table of Contents](#1.3-Overview-of-the-Document-/-Table-of-Contents)
+- [1 Introduction](#1-introduction)
+    - [1.1 Purpose of this Document](#11-purpose-of-this-document)
+    - [1.2 Scope of the Product](#12-scope-of-the-product)
+    - [1.3 Overview of the Document / Table of Contents](#13-overview-of-the-document-/-dable-of-contents)
 
-- [2 Overall Description](#2-Overall-Description)
-    - [2.1 Product Information](#2.1-Product-Information)
-    - [2.2 User Properties](#2.2-User-Properties)
-    - [2.3 Assumptions and Dependencies](#2.3-Assumptions-and-Dependencies)
-    - [2.4 Distribution of Requirements](#2.4-Distribution-of-Requirements)
+- [2 Overall Description](#2-overall-description)
+    - [2.1 Product Information](#21-product-information)
+    - [2.2 User Properties](#22-user-properties)
+    - [2.3 Assumptions and Dependencies](#23-assumptions-and-dependencies)
+    - [2.4 Distribution of Requirements](#24-distribution-of-requirements)
 
-- [3 Specific Requirements](#3-Specific-Requirements)
-    - [3.1 Functional Requirements](#3.1-Functional-Requirements)
-    - [3.2 Non-Functional Requirements](#3.2-Non-Functional-Requirements)
-    - [3.3 Architecture Details](#3.3-Architecture-Details)
-    - [3.4 Design Constraints](#3.4-Design-Constraints)
+- [3 Specific Requirements](#3-specific-requirements)
+    - [3.1 Functional Requirements](#31-functional-requirements)
+    - [3.2 Non-Functional Requirements](#32-non-functional-requirements)
+    - [3.3 Architecture Details](#33-architecture-details)
+    - [3.4 Design Constraints](#34-design-constraints)
 
 
 # 2 Overall Description
@@ -80,25 +80,28 @@ Furthermore the trainer can make training plans for you which are then showed in
 - Tracking trainings:
 User can track their trainings (wheights and repititions) and save them in the app. Their history is also saved so that they can see their progress.
 
-### 3.1.1 Generating a QR-Code for each gym
-Beceause for the user the entry point into using our service is the scan of a QR-Code that is hanging out in his gym, we need to be able to provide QR-Codes for those gyms.
+### 3.1.1
+Bild
 
-### 3.1.2 Scanning the gym QR-Code to request an account
+#### 3.1.1.1 Generating a QR-Code for each gym
+Because each individual gym has its own community it has to be the entry point for a new account creation. By scanning a QR-Code, that is displayed in the gym, users can start the registration process. We need to be able to provide QR-Codes for those gyms.
+
+#### 3.1.1.2 Scanning the gym QR-Code to request an account
 Inside the mobile App we need the ability to detect QR-Codes with the device's camera and use them to send requests to the administrators.
 
-### 3.1.3 Confirming account requests
+#### 3.1.1.3 Confirming account requests
 In the web application the administrators have to confirm the incoming requests of the fitness center members.
 
-### 3.1.4 Entering fitness plans for specific users
+### 3.1.2 Entering fitness plans for specific users
 If the fitness center member desires, he can ..
 
-### 3.1.5 Displaying fitness plans for the user
+### 3.1.3 Displaying fitness plans for the user
 TBD
-### 3.1.6 Progress tracking
+### 3.1.4 Progress tracking
 TBD
-### 3.1.7 Hall of fame
+### 3.1.5 Hall of fame
 TBD
-### 3.1.8 Multi gym support
+### 3.1.6 Multi gym support
 TBD
 
 ## 3.2 Non-Functional Requirements
