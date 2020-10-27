@@ -81,13 +81,14 @@ Furthermore the trainer can make training plans for you which are then showed in
 User can track their trainings (wheights and repititions) and save them in the app. Their history is also saved so that they can see their progress.
 
 ### 3.1.1
-Bild
+[Overview Use Case Diagrams](overview.md)
 
 #### 3.1.1.1 Generating a QR-Code for each gym
 Because each individual gym has its own community it has to be the entry point for a new account creation. By scanning a QR-Code, that is displayed in the gym, users can start the registration process. We need to be able to provide QR-Codes for those gyms.
 
 #### 3.1.1.2 Scanning the gym QR-Code to request an account
 Inside the mobile App we need the ability to detect QR-Codes with the device's camera and use them to send requests to the administrators.
+[Account Creation UCD](create_account_uml.md).
 
 #### 3.1.1.3 Confirming account requests
 In the web application the administrators have to confirm the incoming requests of the fitness center members.
@@ -98,7 +99,8 @@ If the fitness center member desires, he can ..
 ### 3.1.3 Displaying fitness plans for the user
 TBD
 ### 3.1.4 Progress tracking
-TBD
+[Start a workout](create_account_uml.md).
+
 ### 3.1.5 Hall of fame
 TBD
 ### 3.1.6 Multi gym support
@@ -108,7 +110,7 @@ TBD
 IT security: Since part of the stored data is personal, the database should be secured against unauthorized access. 
 
 ## 3.3 Architecture Details
-UML Diagram
+<img src="uml_diagrams/uml_diagram.svg">
 
 ## 3.4 Design Constraints
 Both the web interface for the employees of the fitness center and the mobile app should comply with Apple's human interface guidelines.
