@@ -8,11 +8,7 @@ Can be found [here](business_roles.md)
 Can be found [here](srs/SRS.md)
 
 ## UML Diagrams
-Account creation:
-<img src="uml_diagrams/create_account_uml.svg">
-
-Start Workout:
-![Alt text](uml_diagrams/start_workout_uml.svg)
+[Overview](uml_diagrams/overview.md)
 
 ## Database
 An overview over the tables is [done in sql](database/databse_tables.sql). More will follow.
