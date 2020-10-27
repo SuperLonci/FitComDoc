@@ -5,7 +5,7 @@ Documentation for https://github.com/SuperLonci/FitCom
 Can be found [here](business_roles.md)
 
 ## SRS
-Can be found [here](srs/SRS.md)
+Can be found [here](SRS/SRS.md)
 
 ## UML Diagrams
 [Overview](uml_diagrams/overview.md)
