@@ -80,7 +80,7 @@ Furthermore the trainer can make training plans for you which are then showed in
 - Tracking trainings:
 User can track their trainings (wheights and repititions) and save them in the app. Their history is also saved so that they can see their progress.
 
-### 3.1.1
+### 3.1.1 Functionalities
 [Overview Use Case Diagrams](../uml_diagrams/overview.md)
 
 #### 3.1.1.1 Generating a QR-Code for each gym
