@@ -88,7 +88,7 @@ Because each individual gym has its own community it has to be the entry point f
 
 #### 3.1.1.2 Scanning the gym QR-Code to request an account
 Inside the mobile App we need the ability to detect QR-Codes with the device's camera and use them to send requests to the administrators.
-[Account Creation UCD](../uml_diagrams/create_account_uml.md).
+[Account Creation UCD](../uml_diagrams/create_account_uml.svg).
 
 #### 3.1.1.3 Confirming account requests
 In the web application the administrators have to confirm the incoming requests of the fitness center members.
@@ -99,7 +99,7 @@ If the fitness center member desires, he can ..
 ### 3.1.3 Displaying fitness plans for the user
 TBD
 ### 3.1.4 Progress tracking
-[Start a workout](../uml_diagrams/create_account_uml.md).
+[Start a workout](../uml_diagrams/start_workout_uml.svg).
 
 ### 3.1.5 Hall of fame
 TBD
