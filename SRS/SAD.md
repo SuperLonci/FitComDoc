@@ -44,8 +44,8 @@ _This subsection should describe what the rest of the Software Architecture Docu
 
 
 ## 3. Architectural Goals and Constraints
-_This section describes what software architecture is for the current system, and how it is represented. 
-Of the Use-Case, Logical, Process, Deployment, and Implementation Views, it enumerates the views that are necessary, and for each view, explains what types of model elements it contains._
+We are implementing our Android App basend on the MVC-architecture. We are working on making the implementation even clearer, because so far we only make partial use of the models.
+
 ### Backend
 We decided to implement our backend with nestJS. We decided to use nestJS because our web-frontend will be implemented with Angular. Angular and NestJS will be implemented with TypeScript so we think it's the best choice to learn both most effective.
 
@@ -62,6 +62,7 @@ In this section you will get an overview of our classes in our frontend and back
 ### Frontend
 ![Frontend-UML](../uml_diagrams/package_fitcom.svg)
 ### Backend
+![Backend-UML](../uml_diagrams/nestjs_backend_uml_class_diagramm.svg)
 ### 5.2 Architecturally Significant Design Packages
 ## 6. Process View
 ## 7. Deployment View
