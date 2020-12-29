@@ -48,7 +48,7 @@ In the following diagram you can see our our MVC-Architecture which looks as fol
 We are implementing our Android App basend on the MVC-architecture. We are working on making the implementation even clearer, because so far we only make partial use of the models.
 
 ### Backend
-We decided to implement our backend with nestJS. We decided to use nestJS because our web-frontend will be implemented with Angular. Angular and NestJS will be implemented with TypeScript so we think it's the best choice to learn both most effective.
+We decided to implement our backend with nestJS. We decided to use nestJS because our web-frontend will be implemented with Angular. Angular and NestJS will be implemented with TypeScript and they have the same architectural design patterns so we think it's the best choice to learn both most effective.
 
 ### Frontend
 We will implement our app in Android and IOS.
@@ -65,11 +65,17 @@ In this section you will get an overview of our classes in our frontend and back
 ### Backend
 ![Backend-UML](../uml_diagrams/nestjs_backend_uml_class_diagramm.svg)
 ### 5.2 Architecturally Significant Design Packages
+Here you can find our Backend-Architecture. NestJS uses a stream lined architecture.
+![Backend-Architecture](nestjs_architecture.svg)
 ## 6. Process View
 ## 7. Deployment View
+Our application is deployed as an APK. The application can be run on the android devices with versions greater than 4.0.
 ## 8. Implementation View
 ### 8.1 Overview
 ### 8.2 Layers
 ## 9. Data View
+Our data will be stored in a MariaDB. To get a better view of our data view, you can find a more detailed diagram [here](../database/FitComDB.pdf).
 ## 10. Size and performance
+Training plans can be created in the app. These are stored both locally and in the database. It is not possible to estimate how large the storage space will be yet. This will be possible when the creation of the training plans is programmed.
 ## 11. Quality
+Privacy is an important point in our app. We do not store confidential user data like full names. We also rely on passwordless login.
