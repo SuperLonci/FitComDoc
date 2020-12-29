@@ -41,7 +41,8 @@ The SAD describes the technical architecture of FitCom. An UML for frontend and 
 ### 1.5 Overview
 _This subsection should describe what the rest of the Software Architecture Document contains and explain how the Software Architecture Document is organized._
 ## 2. Architectural Representation
-
+In the following diagram you can see our our MVC-Architecture which looks as follows:
+![Our MVC Concept](MVC_Concept.svg)
 
 ## 3. Architectural Goals and Constraints
 We are implementing our Android App basend on the MVC-architecture. We are working on making the implementation even clearer, because so far we only make partial use of the models.
